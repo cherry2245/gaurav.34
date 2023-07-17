@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <STYLE>
+    .bg-clean:focus{
+       background-color: yellow;
+       text-align: center;
+    }
+    .green:focus{
+        background-color: green;
+    }
+    </STYLE>
+</head>
+<body>
+  <form action="#">
+  <div>
+    <label for="user-name">name</label>
+    <input type="text" placeholder="user-name"class="bg-clean" id="name" required>
+</div>
+<br />
+ <div>
+    <label for="user-email">user-email</label>
+    <input type="email" name="user-email" id="email" placeholder="user-email" class="bg-clean" required>
+</div>
+<br />
+<div>
+    <label for="user-password">Password</label>
+    <input type="password" id="password" placeholder="password" class="bg-clean" required>
+</div>
+    <br />
+    <div>
+        <input type="submit"  value="Register Account" class="green">
+    </div>
+</form>
+</body>
+</html>
